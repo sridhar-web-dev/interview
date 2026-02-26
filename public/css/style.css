@@ -1,0 +1,186 @@
+section
+{
+    padding: 30px 0;
+}
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 30px;   
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.navbar-nav li .nav-link
+{
+    color: #000000 !important;
+    font-weight: 500;
+}
+.banner-section {
+    background-image: url("../img/banner/HomeBanner.png");
+    background-repeat: no-repeat;
+    background-position: center right; 
+    background-size: contain;  
+    min-height: 75vh;
+}
+.banner-section h1 {
+    color: #000000;
+    font-weight: 600;
+}
+.btn-role{
+    background-color: #1162FA;
+    color: #FFFFFF;
+}
+.facts
+{
+    background-color: #3A7EFF;
+    padding: 25px 0;
+}
+.unique .card
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+}
+.unique .card .card-body
+{
+    text-align: center;
+}
+.unique .card .card-body img
+{
+    max-width: 70px;
+    margin-bottom: 25px;
+}
+.interview-trail
+{
+    background-image: url('../img/features/trail-bg.png');
+}
+.interview-trail .card
+{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #3A7EFF;
+}
+.interview-trail .card .card-body .img
+{
+    
+    background: linear-gradient(90deg, #0B48BC, #234C99);
+    border-radius: 20px;
+}
+.interview-trail .card .detail
+{
+    background-color: #3A7EFF;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+.interview-trail .card .detail p
+{
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 18px;
+}
+.cta-section-01
+{
+    
+    background: linear-gradient(90deg, #0B48BC, #234C99);
+}
+.btn-white-bg
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.mnc-logo {
+    max-height: 60px;
+    object-fit: contain;
+    transition: 0.3s ease;
+}
+
+.mnc-logo:hover {
+    
+    transform: scale(1.08);
+}
+
+.mnc-section {
+    background: #fff;
+}
+.mnc-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+    scrollbar-width: none; /* Firefox */
+}
+
+.mnc-scroll::-webkit-scrollbar {
+    /* display: none;  */
+}
+
+.mnc-logo {
+    height: 100px;
+    object-fit: contain;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.mnc-logo:hover {
+    transform: scale(1.08);
+}
+.footer
+{
+    background-color: #0B48BC;
+}
+.footer ul.link ,.footer ul.social
+{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    list-style-type: none
+}
+.footer ul.link li, .footer ul.social li
+{
+    padding: 0 15px;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none
+}
+.footer ul.link li a, .footer ul.social li a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.banner-section.roles 
+{
+    
+    background-image: url("../img/banner/roles.png");
+    min-height: 60vh;
+}
+.banner-section.plain
+{
+    background: linear-gradient(179deg, #0B48BC, #061229);
+
+}
+.roles-section .card
+{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.roles-section .card .card-footer
+{
+    background-color: #1162FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+.roles-section .card .card-footer .price h3
+{
+    color: #FFFFFF;
+}
+.roles-section .card .card-footer .price h3 span
+{
+    text-decoration: line-through;
+}
+.roles-section .card .card-footer p
+{
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
